@@ -45,7 +45,7 @@
 }
 
 .heroImage {
-    background-image: url('../../assets/hero.jpg');
+    background-image: url('/Hero.jpg');
     inset: 0;
 
     background-size: cover;
