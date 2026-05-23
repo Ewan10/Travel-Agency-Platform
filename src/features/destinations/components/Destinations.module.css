@@ -1,0 +1,30 @@
+.destinations__container {
+    width: 70%;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.destinations__title {
+    font-size: 2rem;
+    font-weight: 600;
+
+    margin-bottom: 2rem;
+
+    text-align: center;
+}
+
+.destinations__carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    overflow: hidden;
+}
+
