@@ -1,8 +1,8 @@
 .destinations__container {
     width: 70%;
     max-width: 120rem;
-    margin: 0 auto;
-    padding: 3rem 2rem;
+    margin: 0 auto 1.5rem auto;
+    padding: 0rem 2rem;
     gap: 1.5rem;
     display: flex;
     flex-direction: column;
