@@ -1,5 +1,5 @@
 import Navbar from "../layouts/Navbar";
-import Hero from "../features/hero/Hero";
+import Hero from "../features/hero-temp/Hero";
 import Destinations from "../features/destinations/components/Destinations";
 import PackagesGrid from "../features/packages/components/PackageGrid/PackagesGrid";
 import Reviews from "../features/reviews/components/Reviews";
