@@ -59,6 +59,8 @@ html {
     --primary-dark: #29235c;
     --secondary-purple: #7c3aed;
     --accent-cyan: #a5f3fc;
+    --btn-primary: #5b4fd6;
+    --btn-primary-hover: #4c42c7;
     --light-text: #F8FAFC;
     --soft-subtitle: #e0e7ef;
     --overlay-gradient: linear-gradient(to bottom,

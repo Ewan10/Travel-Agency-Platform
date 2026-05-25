@@ -10,6 +10,7 @@ export default function Navbar() {
                     <span className={styles.h1__1}>Borcelle</span>
                     <span className={styles.h1__2}>Travel Agency</span>
                 </h1>
+             </div>
                 <ul className={styles.navbar__list}>
                     <li className={styles.navbar__item}>
                         <a className={styles.navbar__link} href="/">Destinations</a>
@@ -27,6 +28,9 @@ export default function Navbar() {
                         <a className={styles.navbar__link} href="/about">About</a>
                     </li>
                 </ul>
+           <div className={styles.authentication}>
+                <button className={styles.navbar__button}>Login</button>
+                <button className={styles.navbar__button}>Sign Up</button>
             </div>
         </nav>
     );
