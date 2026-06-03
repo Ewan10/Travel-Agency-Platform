@@ -34,7 +34,7 @@ function Footer() {
                 </div>
             </div>
             <div className={styles.copyrightBox}>
-                <p className={styles.copyright}>&copy; {new Date().getFullYear()} My Website. All rights reserved.</p>
+                <p className={styles.copyright}>&copy; {new Date().getFullYear()} Borcelle Travel Agency. All rights reserved.</p>
             </div>
         </>
     );
