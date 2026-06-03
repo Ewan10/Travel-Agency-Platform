@@ -25,6 +25,20 @@
     align-items: center;
 }
 
+.logoContainer {
+    position: relative;
+}
+
+.logoContainer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: rgba(124, 58, 237, 0.12);
+
+    mix-blend-mode: multiply;
+}
+
 .navbar__header {
     font-family: sans-serif;
     font-size: 1.3rem;

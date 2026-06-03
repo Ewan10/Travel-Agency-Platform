@@ -11,7 +11,7 @@ export const reviews: Review[] = [
     },
     {
         id: "2",
-        username: "Suzanna Veron",
+        username: "Luciano Marquez",
         destination: "Bali, Indonesia",
         reviewText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nuncefficitur tincidunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
         rating: 4,

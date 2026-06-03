@@ -5,7 +5,9 @@ export default function Navbar() {
     return (
         <nav className={styles.navbar}>
             <div className={styles.navbar__logo}>
-                <img src={logo} alt="logo" width="92" height="90" />
+                <div className={styles.logoContainer}>
+                    <img src={logo} alt="logo" width="92" height="90" />
+                </div>
                 <h1 className={styles.navbar__header}>
                     <span className={styles.h1__1}>Borcelle</span>
                     <span className={styles.h1__2}>Travel Agency</span>
@@ -19,7 +21,7 @@ export default function Navbar() {
                         <a className={styles.navbar__link} href="/about">Packages</a>
                     </li>
                     <li className={styles.navbar__item}>
-                        <a className={styles.navbar__link} href="/services">Tours</a>
+                        <a className={styles.navbar__link} href="/services">Itineraries</a>
                     </li>
                     <li className={styles.navbar__item}>
                         <a className={styles.navbar__link} href="/contact">Reviews</a>

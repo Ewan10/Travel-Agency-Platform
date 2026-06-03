@@ -3,6 +3,9 @@ import Hero from "../features/hero/Hero";
 import Destinations from "../features/destinations/components/Destinations";
 import PackagesGrid from "../features/packages/components/PackageGrid/PackagesGrid";
 import Reviews from "../features/reviews/components/Reviews";
+import ItineraryHighlights from "../features/itineraries/components/ItineraryHighlights";
+import Newsletter from "../features/newsletter/Newsletter";
+import Footer from "../layouts/Footer";
 
 export default function HomePage() {
     return (
@@ -22,11 +25,13 @@ export default function HomePage() {
 
         <section></section>
 
+        <section><ItineraryHighlights /></section>
+        
         <section><Reviews /></section>
 
-        <section>pricing/promotion</section>
+        <section><Newsletter /></section>
 
-    <footer>footer</footer>
+    <footer><Footer /></footer>
         
     </main>
 </>

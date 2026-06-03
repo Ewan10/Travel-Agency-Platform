@@ -59,10 +59,12 @@ html {
     --primary-dark: #29235c;
     --secondary-purple: #7c3aed;
     --accent-cyan: #a5f3fc;
-    --btn-primary: #5b4fd6;
+    --btn-primary: #695ee3;
     --btn-primary-hover: #4c42c7;
     --light-text: #F8FAFC;
     --soft-subtitle: #e0e7ef;
+    --background-1: #f8fafc;
+    --background-2: #edf1f4;
     --overlay-gradient: linear-gradient(to bottom,
             rgba(148, 166, 212, 0.45),
             rgba(121, 140, 185, 0.672));
